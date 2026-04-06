@@ -1,0 +1,38 @@
+img {
+margin: 2%;
+transition: all 0.5s ease;
+filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5)); 	
+}
+img:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.1) drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
+}
+body {
+  background-image: url('https://starwalk.space/gallery/images/what-is-space/1140x641.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  padding: 1px;
+}
+table,
+th,
+td {
+  border: 2px solid rgba(255, 255, 255, 0.315);
+  border-collapse: collapse;
+}
+th,
+td {
+  background-color: rgba(255, 255, 255, 0.158);
+  border: 2px solid rgba(255, 255, 255, 0.315);
+  padding: 8px;
+}
+h2 {
+  text-shadow: 2px 2px 5px black;
+}
+h1 {
+  text-shadow: 2px 2px 5px black;
+};
