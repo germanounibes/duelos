@@ -8,15 +8,16 @@ img:hover {
     filter: brightness(1.1) drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
 }
 body {
-  background-image: url('https://starwalk.space/gallery/images/what-is-space/1140x641.jpg');
+  background-image: url('imagens/wallpaper.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   height: 100vh;
   color: rgb(255, 255, 255);
   font-family: cursive;
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
   padding: 1px;
+  background-attachment: fixed;
 }
 table,
 th,
