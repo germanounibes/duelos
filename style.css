@@ -1,6 +1,8 @@
 html, body {
-  :selection {
-  background-color: #000000; /* Cor de fundo da seleção */
+    height: 100%;
+    margin: 0;
+  ::selection {
+  background-color: #3f9e4f; /* Cor de fundo da seleção */
   color: #ffffff;              /* Cor do texto selecionado */
 }
 }
